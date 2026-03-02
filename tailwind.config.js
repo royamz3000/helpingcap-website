@@ -1,0 +1,76 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        brand: {
+          50: '#eef1f8',
+          100: '#d5dbed',
+          200: '#aab7db',
+          300: '#7f93c9',
+          400: '#5570b7',
+          500: '#3a579e',
+          600: '#204ce5',
+          700: '#1a2d6b',
+          800: '#152350',
+          900: '#0f1b3e',
+          950: '#0a1228',
+        },
+        accent: {
+          50: '#fff5ee',
+          100: '#ffe6d0',
+          200: '#ffc89c',
+          300: '#ffa468',
+          400: '#ff8034',
+          500: '#ff5a00',
+          600: '#e04e00',
+          700: '#b84000',
+          800: '#933300',
+          900: '#7a2b00',
+          950: '#421500',
+        },
+        cream: {
+          50: '#fafbfd',
+          100: '#f4f6fa',
+          200: '#eaeff6',
+          300: '#dde3ef',
+          400: '#c8d2e4',
+          500: '#b0bdd6',
+        },
+        navy: {
+          50: '#f0f3f8',
+          100: '#dce2ef',
+          200: '#b8c5df',
+          300: '#8fa2cb',
+          400: '#6b82b8',
+          500: '#4d669f',
+          600: '#3d5180',
+          700: '#2d3d60',
+          800: '#1e2a42',
+          900: '#0f1b2e',
+          950: '#080f1a',
+        },
+        slate: {
+          750: '#293548',
+          850: '#172033',
+        },
+      },
+      fontFamily: {
+        sans: ['"Inter"', 'system-ui', '-apple-system', 'sans-serif'],
+        display: ['"Plus Jakarta Sans"', '"Inter"', 'system-ui', 'sans-serif'],
+      },
+      borderRadius: {
+        '4xl': '2rem',
+      },
+      boxShadow: {
+        'glass': '0 8px 32px rgba(0,0,0,0.06)',
+        'glass-lg': '0 16px 48px rgba(0,0,0,0.08)',
+        'card': '0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.06)',
+        'card-hover': '0 20px 40px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.04)',
+        'glow': '0 0 40px rgba(255,90,0,0.15)',
+      },
+    },
+  },
+  plugins: [],
+}
