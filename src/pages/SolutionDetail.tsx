@@ -130,7 +130,7 @@ const data: Record<string, SolutionData> = {
     faqs: [
       { q: 'How fast can I actually get funded?', a: 'Most short-term loans are funded within 24 hours of approval. In many cases, if you apply in the morning and are approved, funds arrive the same business day.' },
       { q: 'What is the typical repayment schedule?', a: 'Repayment is typically made through daily or weekly automatic debits from your business bank account. This spreads the cost evenly and makes budgeting predictable.' },
-      { q: 'Do I need collateral?', a: 'Most short-term loans from Helping Capital are unsecured, meaning no collateral is required. Approval is primarily based on your business revenue and cash flow history.' },
+      { q: 'Do I need collateral?', a: 'Most short-term loans from Delta Capital are unsecured, meaning no collateral is required. Approval is primarily based on your business revenue and cash flow history.' },
       { q: 'Can I pay off the loan early?', a: 'Yes. Most of our short-term loan products allow early payoff, and many come with a discount if you pay ahead of schedule. Ask your Funding Specialist for details on your specific offer.' },
       { q: 'What credit score do I need?', a: 'We look at the full picture, not just your credit score. Many of our clients have been approved with scores in the 500s. Revenue, time in business, and cash flow matter more than a perfect FICO score.' },
     ],
