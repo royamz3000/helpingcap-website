@@ -41,8 +41,8 @@ const values = [
 ]
 
 const faqs = [
-  { q: 'What is Helping Capital?', a: 'We\'re a direct lender in the business of making funding easy. Our team helps business owners from all industries find the right financing options to fuel growth.' },
-  { q: 'How does Helping Capital work?', a: 'We provide a one-stop solution through a simple online application process. A dedicated Funding Specialist guides you through review, approval, and funding — start to finish.' },
+  { q: 'What is Delta Capital?', a: 'We\'re a direct lender in the business of making funding easy. Our team helps business owners from all industries find the right financing options to fuel growth.' },
+  { q: 'How does Delta Capital work?', a: 'We provide a one-stop solution through a simple online application process. A dedicated Funding Specialist guides you through review, approval, and funding — start to finish.' },
   { q: 'How do I apply?', a: 'Apply online in minutes without impacting your credit score. Just answer a few basic questions about you and your business, and our team takes it from there.' },
   { q: 'How long does it take to be approved?', a: 'Approval decisions are typically made within a few hours after applying, so you can focus on running your business.' },
   { q: 'How quickly can I get my funds?', a: 'In most cases, funds are deposited into your business bank account within 24 hours after approval.' },
@@ -93,7 +93,7 @@ export default function About() {
               <span className="text-accent-400">We're Your Funding Partner.</span>
             </h1>
             <p className="mt-5 text-slate-400 text-lg max-w-2xl mx-auto leading-relaxed">
-              Helping Capital was built on a simple belief: every small business deserves
+              Delta Capital was built on a simple belief: every small business deserves
               access to the capital it needs to grow — without the run-around.
             </p>
           </motion.div>

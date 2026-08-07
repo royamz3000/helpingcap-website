@@ -103,7 +103,7 @@ const testimonials = [
     name: 'David Chen',
     role: 'Founder, TechFix Solutions',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face',
-    quote: 'After three banks turned me down, Helping Capital looked at my actual revenue and said yes. That funding let me hire two new techs.',
+    quote: 'After three banks turned me down, Delta Capital looked at my actual revenue and said yes. That funding let me hire two new techs.',
   },
   {
     name: 'Sarah Mitchell',
@@ -115,8 +115,8 @@ const testimonials = [
 
 /* ── FAQ ──────────────────────────────────────────────────── */
 const faqs = [
-  { q: 'What is Helping Capital?', a: 'Helping Capital simplifies business funding. We help business owners across all industries select the best financing solution to grow their business.' },
-  { q: 'How does Helping Capital work?', a: 'We provide working capital through a simple online application. A dedicated Funding Specialist guides you through review, approval, and funding — start to finish.' },
+  { q: 'What is Delta Capital?', a: 'Delta Capital simplifies business funding. We help business owners across all industries select the best financing solution to grow their business.' },
+  { q: 'How does Delta Capital work?', a: 'We provide working capital through a simple online application. A dedicated Funding Specialist guides you through review, approval, and funding — start to finish.' },
   { q: 'How can I apply?', a: 'Apply online in under 5 minutes. Just fill out a quick application and our team will contact you to discuss your options.' },
   { q: 'How long does it take to be approved?', a: 'Most applications are approved within hours. We specialize in fast turnaround times so you can focus on running your business.' },
   { q: 'Is my business eligible?', a: 'Eligibility typically requires at least 6 months in business and $15,000 in monthly revenue. We work with businesses across all industries.' },
@@ -276,7 +276,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto section-padding">
           <Reveal className="text-center mb-12">
             <span className="pill-label">Features</span>
-            <h2 className="heading-lg text-brand-900 mt-4">Why Choose Helping Capital</h2>
+            <h2 className="heading-lg text-brand-900 mt-4">Why Choose Delta Capital</h2>
           </Reveal>
 
           <div className="grid md:grid-cols-3 gap-5">
@@ -324,7 +324,7 @@ export default function Home() {
                 Direct Funders, Fast & Simple
               </h2>
               <p className="mt-5 text-slate-500 text-lg leading-relaxed">
-                Helping Capital is a leader in same-day funding. We are a direct funder providing
+                Delta Capital is a leader in same-day funding. We are a direct funder providing
                 working capital to businesses all across America. We value your time and money —
                 95% of our clients are funded within 48 hours.
               </p>

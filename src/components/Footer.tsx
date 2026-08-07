@@ -86,9 +86,9 @@ export default function Footer() {
                 <Phone className="w-4 h-4 text-accent-500" />
                 (863) 417-9220
               </a>
-              <a href="mailto:info@helpingcapital.com" className="flex items-center gap-2.5 hover:text-white transition-colors">
+              <a href="mailto:info@deltacapital.com" className="flex items-center gap-2.5 hover:text-white transition-colors">
                 <Mail className="w-4 h-4 text-accent-500" />
-                info@helpingcapital.com
+                info@deltacapital.com
               </a>
               <div className="flex items-center gap-2.5">
                 <Clock className="w-4 h-4 text-accent-500 shrink-0" />
@@ -99,7 +99,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-600">
-          <p>&copy; {new Date().getFullYear()} Helping Capital. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Delta Capital. All rights reserved.</p>
           <div className="flex gap-4">
             <Link to="/privacy" className="hover:text-slate-300">Privacy Policy</Link>
             <Link to="/terms" className="hover:text-slate-300">Terms of Service</Link>
